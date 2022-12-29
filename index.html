@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background: linear-gradient(to top left, skyblue, violet) no-repeat center fixed; background-size: cover;">
+    <div class="container-box">
+        <div class="container-text">
+            <h1>Contact Us</h1>
+        </div>
+        <div class="container-form">
+            <form name="contact_form">
+                
+                <input type="text" class="input-field" name="name" placeholder="Your name" title="Your Name" required><br>
+
+                <input type="email" class="input-field" name="email" placeholder="Your Email Address" title="Your Email Address" required><br>
+
+                <input type="tel" class="input-field" name="whatsapp-number" placeholder="Your WhatsApp Number" title="Your WhatsApp Number" maxlength="10" required><br>
+
+                <textarea name="message"  class="input-field" rows="4" cols="30" placeholder="Your Message" title="Your Message" required></textarea><br><br>
+
+                <input type="submit" id="btn-submit" class="input-field" name="submit" value="Send Message"><br>
+                <input type="reset" id="btn-reset" class="input-field" name="reset" value="Clear All">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
