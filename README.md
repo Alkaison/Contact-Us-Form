@@ -79,7 +79,7 @@ The webpage is live with the help of GitHub pages and you can visit it here: htt
 
 ## Screenshot
 
-![Survey Form Webpage](https://github.com/Alkaison/Contact-Us-Form/blob/main/image.png)
+![Contact Us Form](https://github.com/Alkaison/Contact-Us-Form/blob/main/image.png)
 
 ## Feedback
 
