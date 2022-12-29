@@ -1,0 +1,29 @@
+.container-box {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.input-field {
+    padding: 7px;
+    margin: 7px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 1px black;
+    width: 250px;
+    max-width: 500px;
+    max-height: 500px;
+    background-color: rgb(204, 204, 204);
+}
+
+.input-field:hover {
+    background-color: white;
+}
+
+#btn-submit:hover {
+    background-color: green;
+}
+
+#btn-reset:hover  {
+    background-color: red;
+}
