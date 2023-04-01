@@ -7,23 +7,26 @@
 .input-field {
     padding: 7px;
     margin: 7px;
+    outline: none;
     border-radius: 5px;
     border: 1px solid black;
     box-shadow: 2px 2px 2px 1px black;
     width: 250px;
     max-width: 500px;
     max-height: 500px;
-    background-color: rgb(204, 204, 204);
+    background-color: rgb(236, 227, 227);
 }
 
-.input-field:hover {
+.input-field:focus {
     background-color: white;
 }
 
 #btn-submit:hover {
-    background-color: green;
+    cursor: pointer;
+    background-color: rgb(107, 218, 107);
 }
 
 #btn-reset:hover  {
-    background-color: red;
+    cursor: pointer;
+    background-color: rgb(255, 48, 48);
 }
