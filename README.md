@@ -18,21 +18,20 @@ The webpage is live with the help of GitHub pages and you can visit it here: htt
     <title>Contact Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body style="background: linear-gradient(to top left, skyblue, violet) no-repeat center fixed; background-size: cover;">
     <div class="container-box">
-        <div class="container-text">
-            <h1>Contact Us</h1>
-        </div>
+        <h1>Contact Us</h1>
         <div class="container-form">
             <form name="contact_form">
-                
+
                 <input type="text" class="input-field" name="name" placeholder="Your name" title="Your Name" required><br>
 
                 <input type="email" class="input-field" name="email" placeholder="Your Email Address" title="Your Email Address" required><br>
 
                 <input type="tel" class="input-field" name="whatsapp-number" placeholder="Your WhatsApp Number" title="Your WhatsApp Number" maxlength="10" required><br>
 
-                <textarea name="message"  class="input-field" rows="4" cols="30" placeholder="Your Message" title="Your Message" required></textarea><br><br>
+                <textarea name="message" class="input-field" placeholder="Your Message" title="Your Message" style="max-width: 250px; max-height: 300px; height: 100px; min-width: 250px;" required></textarea><br><br>
 
                 <input type="submit" id="btn-submit" class="input-field" name="submit" value="Send Message"><br>
                 <input type="reset" id="btn-reset" class="input-field" name="reset" value="Clear All">
@@ -55,25 +54,28 @@ The webpage is live with the help of GitHub pages and you can visit it here: htt
 .input-field {
     padding: 7px;
     margin: 7px;
+    outline: none;
     border-radius: 5px;
     border: 1px solid black;
     box-shadow: 2px 2px 2px 1px black;
     width: 250px;
     max-width: 500px;
     max-height: 500px;
-    background-color: rgb(204, 204, 204);
+    background-color: rgb(236, 227, 227);
 }
 
-.input-field:hover {
+.input-field:focus {
     background-color: white;
 }
 
 #btn-submit:hover {
-    background-color: green;
+    cursor: pointer;
+    background-color: rgb(107, 218, 107);
 }
 
 #btn-reset:hover  {
-    background-color: red;
+    cursor: pointer;
+    background-color: rgb(255, 48, 48);
 }
 ```
 
@@ -83,14 +85,14 @@ The webpage is live with the help of GitHub pages and you can visit it here: htt
 
 ## Feedback
 
-If you have any feedback, please reach out to us at [Discord](https://discord.gg/dF4PHxbHpA).
+If you have any feedback, please reach out to us at [Discord](https://discord.gg/dF4PHxbHpA "Byte Hub Discord").
 
 ## 💛 Contributing
 
-1. To propose a change in this document or submit a new translation you can [fork this repository](https://github.com/Alkaison/Contact-Us-Form/fork) and submit a **pull request**.
+1. To propose a change in this document or submit a new translation you can [fork this repository](https://github.com/Alkaison/Contact-Us-Form/fork "Fork") and submit a **pull request**.
 
-2. Questions about anything? Ask me [here](https://github.com/Alkaison/Contact-Us-Form/issues/new)!
+2. Questions about anything? Ask me [here](https://github.com/Alkaison/Contact-Us-Form/issues/new  "Questions")!
 
 3. If you like this project, give it a ⭐ and **share it** with friends!
 
-4. You can connect with me on [LinkedIn](https://linkedin.com/in/alkaison).
+4. You can connect with me on [LinkedIn](https://linkedin.com/in/alkaison "LinkedIn").
